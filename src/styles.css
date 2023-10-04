@@ -1,0 +1,22 @@
+.result {
+    height: 100px;
+    background-color: darkgray;
+}
+
+    
+
+.body {
+    max-width: 400px;
+    margin: auto;
+}
+
+.button {
+    display: block;
+    background-color: lightgray;
+}
+
+button {
+    width: 25%;
+    height: 80px;
+    font-size: 30px;
+}
