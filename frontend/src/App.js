@@ -55,6 +55,17 @@ class App extends Component {
                 sign: button,
                 result: ""
             })
+        }else if(button === 'neg'){
+            this.setState({
+                result: '-' + this.state.result
+            })
+        }else if(button === 'clear'){
+            this.setState({
+                result: "",
+                num1: "",
+                num2: "",
+                sign: ""
+            })
         } else {
             this.setState({
                 result: this.state.result + button

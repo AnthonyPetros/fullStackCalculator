@@ -24,8 +24,11 @@ class KeysComponent extends Component {
 
                 <button name="0" onClick={e => this.props.onClick(e.target.name)}>0</button>
                 <button name="." onClick={e => this.props.onClick(e.target.name)}>.</button>
-                <button name="=" onClick={e => this.props.onClick(e.target.name)}>=</button>
-                <button name="back" onClick={e => this.props.onClick(e.target.name)}>back</button><br/>
+                <button name="neg" onClick={e => this.props.onClick(e.target.name)}>neg</button>
+                <button name="=" onClick={e => this.props.onClick(e.target.name)}>=</button><br/>
+
+                <button name="back" onClick={e => this.props.onClick(e.target.name)}>back</button>
+                <button name="clear" onClick={e => this.props.onClick(e.target.name)}>c</button>
                
             </div>
         )
