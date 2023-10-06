@@ -4,7 +4,9 @@ class KeysComponent extends Component {
     render() {
         return (
             <div className="button">
-                
+                <button name="back" onClick={e => this.props.onClick(e.target.name)}>back</button>
+                <button name="clear" onClick={e => this.props.onClick(e.target.name)}>c</button><br/>
+
                 <button name="7" onClick={e => this.props.onClick(e.target.name)}>7</button>
                 <button name="8" onClick={e => this.props.onClick(e.target.name)}>8</button>
                 <button name="9" onClick={e => this.props.onClick(e.target.name)}>9</button>
@@ -27,8 +29,7 @@ class KeysComponent extends Component {
                 <button name="neg" onClick={e => this.props.onClick(e.target.name)}>neg</button>
                 <button name="=" onClick={e => this.props.onClick(e.target.name)}>=</button><br/>
 
-                <button name="back" onClick={e => this.props.onClick(e.target.name)}>back</button>
-                <button name="clear" onClick={e => this.props.onClick(e.target.name)}>c</button>
+                
                
             </div>
         )

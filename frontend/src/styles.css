@@ -1,9 +1,15 @@
 .result {
     height: 100px;
-    background-color: darkgray;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
-    
+p {
+    color: white;
+    font-size:40px;
+}    
 
 .body {
     max-width: 400px;
@@ -14,9 +20,18 @@
     display: block;
     background-color: lightgray;
 }
-
+button[name=back] {
+    width: 50%;
+    background-color:red;
+}
+button[name=clear] {
+    width: 50%;
+    background-color:red;
+}
 button {
     width: 25%;
     height: 80px;
     font-size: 30px;
 }
+
+
